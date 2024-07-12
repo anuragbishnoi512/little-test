@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap');
+
+
+.green-line {
+    width: 60px;
+    height: 2px;
+    background-color: #6E9277;
+}
+
+.cutting-txt {
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46.43px;
+    text-align: left;
+    color: #6E9277;
+}
+
+.heading-font {
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+    text-align: center;
+    color: #001008;
+    max-width: 799px;
+}
+
+.device-font {
+    font-family: "Archivo", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32.5px;
+    text-align: left;
+    color: #001008;
+}
+
+.para-font {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #001008;
+    max-width: 449px;
+}
+
+.device-btn {
+    font-family: "Archivo", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.58px;
+    text-align: left;
+    color: white;
+    padding: 16px 28px 16px 28px;
+    background-color: #6E9277;
+    border: 1px solid #6E9277;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.bg-color {
+    background: #F5F8F6;
+}
+
+.paddding {
+    padding: 30px 30px 30px 30px;
+    background: white;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.first-ellipse {
+    left: 0;
+}
+.second-ellipse{
+    right: 0;
+    top: 70%;
+}
+.zindex-1{
+    z-index: -1 !important  ;
+}
+@media (max-width:992px ) {
+    .heading-font{
+        font-size: 30px;
+    }
+}
